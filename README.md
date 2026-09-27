@@ -55,6 +55,4 @@ Os dados obtidos da PokéAPI são tratados e exibidos na nossa aplicação, sem 
 
 ## Arquitetura da Aplicação 
 
-[Frontend SPA]  --->  [API Pokédex]  --->  [PokéAPI Externa]
-
 ![Fluxograma da Arquitetura](arquitetura.png)
