@@ -43,6 +43,21 @@ Em modo de desenvolvimento é recomendado executar utilizando o parâmetro reloa
 
 O servidor estará disponível em http://127.0.0.1:5000
 
+## Instalação e Execução com Docker
+
+1. Certifique-se de ter o Docker instalado em sua máquina.
+   - [Instalação do Docker](https://docs.docker.com/get-docker/)
+
+2. Construa a imagem Docker
+   ```bash
+
+   docker build -t pokedex-api .
+
+3. Execute o container:
+
+   docker run -p 5000:5000 pokedex-api
+      
+
 ## 🌐 API Externa Utilizada
 
 Este projeto consome dados da **PokéAPI**, uma API pública e gratuita que fornece informações detalhadas sobre Pokémons.  
