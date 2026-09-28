@@ -56,7 +56,11 @@ O servidor estará disponível em http://127.0.0.1:5000
 3. Execute o container:
 
    docker run -p 5000:5000 pokedex-api
-      
+
+4. Acesse a aplicação no navegador:
+
+http://127.0.0.1:5000
+    
 
 ## 🌐 API Externa Utilizada
 
